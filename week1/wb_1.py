@@ -20,7 +20,7 @@ Contents:
 """
 
 # %% load libraries
-import os
+import os # directory
 import re
 
 # %% regex
@@ -45,7 +45,7 @@ s5 = 'run ran run'
 s6 = 'The CEO of alfa announced the acquisition of beta.'\
      'The reaction of stakeholders has been positive'
 
-# -- regex are case sensitive 
+# -- regex are case sensitive
 
 q = re.search('apple', s0)
 print(q)
@@ -142,4 +142,3 @@ unique_entities = s4.replace('apples', 'apple')
 
 # -- segmenting sentences
 segmnted_corpus = [word.strip() for word in s6.split('.')]
-
