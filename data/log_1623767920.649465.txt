@@ -1,0 +1,22 @@
+2021-06-15 16:04:04,922 : INFO : collecting all words and their counts
+2021-06-15 16:04:04,930 : INFO : PROGRESS: at sentence #0, processed 0 words and 0 word types
+2021-06-15 16:04:05,153 : INFO : pruned out 0 tokens with count <=1 (before 50016, after 50016)
+2021-06-15 16:04:05,193 : INFO : pruned out 41505 tokens with count <=2 (before 50055, after 8550)
+2021-06-15 16:04:05,236 : INFO : collected 19649 word types from a corpus of 65677 words (unigram + bigrams) and 1156 sentences
+2021-06-15 16:04:05,236 : INFO : using 19649 counts as vocab in Phrases<0 vocab, min_count=50, threshold=5, max_vocab_size=50000>
+2021-06-15 16:04:05,239 : INFO : collecting all words and their counts
+2021-06-15 16:04:05,240 : INFO : PROGRESS: at sentence #0, processed 0 words and 0 word types
+2021-06-15 16:04:05,703 : INFO : pruned out 0 tokens with count <=1 (before 50020, after 50020)
+2021-06-15 16:04:05,731 : INFO : pruned out 41509 tokens with count <=2 (before 50059, after 8550)
+2021-06-15 16:04:05,907 : INFO : collected 19650 word types from a corpus of 65521 words (unigram + bigrams) and 1156 sentences
+2021-06-15 16:04:05,907 : INFO : using 19650 counts as vocab in Phrases<0 vocab, min_count=50, threshold=5, max_vocab_size=50000>
+2021-06-15 16:04:11,229 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2021-06-15 16:04:11,485 : INFO : built Dictionary(7464 unique tokens: ['activity', 'analyze', 'art', 'articulate', 'ask']...) from 1156 documents (total 65463 corpus positions)
+2021-06-15 16:04:14,765 : INFO : serializing temporary corpus to /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/c775bf_corpus.txt
+2021-06-15 16:04:14,926 : INFO : converting temporary corpus to MALLET format with /home/simone/mallet-2.0.8/bin/mallet import-file --preserve-case --keep-sequence --remove-stopwords --token-regex "\S+" --input /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/c775bf_corpus.txt --output /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/c775bf_corpus.mallet
+2021-06-15 16:06:57,268 : INFO : serializing temporary corpus to /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/536594_corpus.txt
+2021-06-15 16:06:57,450 : INFO : converting temporary corpus to MALLET format with /home/ireneavraam/mallet-2.0.8/bin/mallet import-file --preserve-case --keep-sequence --remove-stopwords --token-regex "\S+" --input /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/536594_corpus.txt --output /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/536594_corpus.mallet
+2021-06-15 16:11:16,992 : INFO : serializing temporary corpus to /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/9c9ee_corpus.txt
+2021-06-15 16:11:17,194 : INFO : converting temporary corpus to MALLET format with C:/mallet-2.0.8/bin/mallet import-file --preserve-case --keep-sequence --remove-stopwords --token-regex "\S+" --input /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/9c9ee_corpus.txt --output /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/9c9ee_corpus.mallet
+2021-06-15 16:21:47,553 : INFO : serializing temporary corpus to /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/1bb642_corpus.txt
+2021-06-15 16:21:47,941 : INFO : converting temporary corpus to MALLET format with C:/mallet-2.0.8/bin/mallet import-file --preserve-case --keep-sequence --remove-stopwords --token-regex "\S+" --input /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/1bb642_corpus.txt --output /var/folders/h8/_nq1gny91jl_t7zpt1b8lv_40000gn/T/1bb642_corpus.mallet
